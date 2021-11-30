@@ -754,7 +754,7 @@
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
       figcaption.mt-3 Nota: se puede observar que el elemento fuerte es el elemento que está encima. 
-    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
+    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5.hover-flip
       .row.justify-content-around.align-items-center.position-relative
         img.position-absolute.d-none.d-lg-block(src="@/assets/curso/31.svg" alt="Adornos flotantes" style="width: 132px ; left: 3% ; top: -60% ")
         .col-4.col-sm-2.col-lg-1
@@ -763,11 +763,118 @@
             .col-10.mb-3.mb-sm-0
               p.mb-0 Lo invitamos a revisar el <b>video 08.</b> Video Buscatrazos, aprenderá a manejar <b>la herramienta buscatrazos</b> para crear nuevas formas a partir de formas básicas.
     p.mb-5 A continuación, se describen algunos de los denominados efectos buscatrazos <b><i>(PathFinder)</i></b>:
-
-
-
-
-
+    .row.mb-3
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Menos Fondo:
+              p resta los objetos situados más al fondo del objeto situado más al frente.
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Dividir: 
+              p.mb-0 separa una parte de la ilustración en las caras rellenas que la componen.
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Cortar: 
+              p.mb-0 elimina la parte oculta de un objeto relleno. Elimina los trazos y no combina objetos de igual color. 
+    .row.mb-5
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Combinar: 
+              p elimina la parte oculta de un objeto relleno. Suprime los trazos y combina cualquier objeto.
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Recortar: 
+              p divide una ilustración en las caras rellenas que la componen y, a continuación, elimina todas las partes de la ilustración que quedan fuera de los límites del objeto situado más al frente.
+      .col-lg-4.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.hover
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/75.svg' alt='AvatarTop')
+          .tarjeta.bg--2-claro.d-flex.align-items-center
+            .p-2
+              h4 Contornear: 
+              p divide un objeto en sus segmentos de línea o bordes. Este comando es útil para ilustraciones en las que es necesario cortar los objetos que se sobreimprimen.
+    .bg--1-claro.p-5.position-relative.hover.hover-flip.mb-5
+      .img-up(style='position: absolute; top: -20%; left: 0% ; width: 100%; height: 100%;')
+        figure
+          img(src="@/assets/curso/76.svg" style='width: 70px').m-auto
+      .texto(style='margin-top: 20px')
+        p.text-center A diferencia de los modos de forma, <b>los buscatrazos superponen información y genera un solo elemento</b>, también es importante tener presente que cuando se vaya a seleccionar cualquier opción acá presente, si se mantiene la tecla <i>Alt u Option</i>, según corresponda, se realizará dicha acción, pero dejará visibles los contornos de los elementos. 
+    #t_2_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.10 Almacenamiento, importación y exportación
+    p.mb-5 Como bien sabemos, Illustrator es un programa de vectores, por eso su primera opción al pensar en grabar o exportar un archivo o documento, su formato inicial será (.AI), guardando información como los trazos, los colores, mesas de trabajo, entre otros. Se cuenta también con otros formatos nativos como el PDF, que conserva información y características vectoriales; se puede acceder desde el menú Archivo, Guardar, Guardar Como o Guardar una Copia, en cualquiera de los casos, se abrirá una ventana (figura 14) donde se escogerá en Nombre con que se guardará, la ubicación, el formato inicial que será (.ai), se activará la opción de las mesas de trabajo si se trabajaron dos o más y el OK o GUARDAR para avanzar.
+    .titulo-sexto.color-acento-botones
+      h5 Figura 14
+      span Opción Guardar
+    .row.mb-5.justify-content-center(data-aos="fade-down")
+      .col-lg-8: img(src="@/assets/curso/77.jpg")
+    p.mb-5 Al almacenar elementos en Illustrator es importante tener en cuenta:
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordion__inactivo")
+      .row(titulo="Tipografías e imágenes")
+        .col-md-8.mb-4.mb-md-0
+          p En su gran mayoría cuando se trabaja textos en cualquier programa, se utilizan algunas fuentes tipográficas, es necesario llevar consigo las carpetas de dichas fuentes, ya que en muchos de los sitios de impresión es probable que no cuenten con las mismas, esto se hace para que no haya cambios imprevistos en el trabajo.  
+            br
+            br
+            |Si no se cuenta con esta posibilidad, en el menú “texto – crear contornos”, puede convertir la tipografía en trazo. 
+      
+        .col-md-4
+          figure
+            img(src='@/assets/curso/78.svg', alt='Texto que describa la imagen' style='width: 128px').m-auto
+      .row(titulo="Enlazar e incrustar")
+        .col-md-8.mb-4.mb-md-0
+          p Se emplean los términos enlazar e incrustar, para textos como imágenes. Enlazar hace referencia a que la imagen está conectada, pero es independiente del documento; mientras que incrustar la imagen se copia en el documento a resolución completa. 
+            br
+            br
+            |Al guardar o exportar ilustraciones, Illustrator escribe los datos de la ilustración en un archivo. La estructura de los datos depende de la selección del formato de archivo. Hay cinco formatos de archivo básicos, en los que puede guardar ilustraciones (AI, PDF, EPS, FXG y SVG); estos son llamados formatos nativos, ya que permiten guardar todos los datos de Illustrator, incluidas varias mesas de trabajo. En el caso de seleccionar los formatos PDF y SVG, debe seleccionar la opción conservar capacidades de edición de Illustrator, para guardar todos los datos de Illustrator. Los formatos EPS y FXG permiten, además, guardar mesas de trabajo individuales como archivos independientes. En el formato SVG, aunque solo se guarda la mesa de trabajo activa, se exhibe el contenido de todas las mesas de trabajo.
+            br
+            br
+            |También es posible exportar ilustraciones en diferentes formatos de archivo para utilizarlas fuera de Illustrator. Estos formatos son llamados formatos no nativos, ya que Illustrator no podrá recuperar todos los datos si vuelve a abrir el archivo en programa. Por este motivo, es recomendable guardar las ilustraciones en formato “AI” hasta que termine de crearlas y, posteriormente, exportarlas al formato deseado.
+      
+        .col-md-4
+          figure
+            img(src='@/assets/curso/79.svg', alt='Texto que describa la imagen' style='width: 128px').m-auto
+      .row(titulo="Empaquetar archivos")
+        .col-md-8.mb-4.mb-md-0
+          p Función disponible en Adobe Illustrator CS6, CC y posteriores. Puede recopilar los archivos utilizados, incluidas las fuentes (a excepción del chino, coreano y japonés) y los gráficos enlazados para distribuirlos de manera más fácil. Al empaquetar un archivo, se crea una carpeta que contiene el documento de Illustrator junto con todas las fuentes necesarias, gráficos enlazados y un informe del paquete. Este informe, se guarda como un archivo de texto, e incluye información sobre los archivos empaquetados (Adobe, 2017).
+      
+        .col-md-4
+          figure
+            img(src='@/assets/curso/80.svg', alt='Texto que describa la imagen' style='width: 128px').m-auto
+    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5.hover-flip
+      .row.justify-content-around.align-items-center.position-relative
+        img.position-absolute.d-none.d-lg-block(src="@/assets/curso/31.svg" alt="Adornos flotantes" style="width: 132px ; left: 3% ; top: -30% ")
+        .col-4.col-sm-2.col-lg-1
+        .col-lg-10
+          .row.justify-content-between.align-items-center
+            .col-11.mb-3.mb-sm-0
+              p.mb-0 Lo invitamos a revisar el <b>video 9</b>. Video Almacenar, importar y exportar, aprenderá a <b>importar y exportar elementos desde Illustrator</b> y a enlazar e incrustar imágenes.
+                br
+                br
+                |<i>Para ampliar la información sobre el uso de Illustrator, se recomienda consultar la Ayuda de Adobe Illustrator CC, también disponible en el material complementario de este programa.</i> 
+    #t_sintesis.texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
+      h4.mb-0.me-3 Sintesis
+    p.mb-5 En el siguiente mapa se presenta un resumen de las opciones de las herramientas desarrollada en este componente:
+    figure.mb-5
+      img(src='@/assets/curso/81.jpg', alt='Texto que describa la imagen' style='width: 100%').m-auto
 
 
 
@@ -879,4 +986,8 @@ export default {
   span
   color: $color-acento-botones
   font-weight: bold
+.acordion__activo
+  background-color: #b7eef3 !important
+.acordion__inactivo
+  background-color: #dbf6f9
 </style>
