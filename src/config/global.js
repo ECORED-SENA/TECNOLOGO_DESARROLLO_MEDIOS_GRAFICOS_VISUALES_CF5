@@ -238,30 +238,26 @@ export default {
       significado:
         'permite la creación de diseños con gran valor artístico a través de vectores, y con la ventaja que se pueden ampliar o reducir sin perder la calidad.',
     },
-    },
   ],
   complementario: [
     {
-      texto:
-        'Ojeda, G. (2010). La Producción Gráfica.',
+      texto: 'Ojeda, G. (2010). La Producción Gráfica.',
       tipo: 'Presentación',
       link: 'https://es.slideshare.net/tls02cv/produccion-grafica',
     },
     {
-      texto:
-      'Santarsiero, H. (2008) La Producción gráfica.',
+      texto: 'Santarsiero, H. (2008) La Producción gráfica.',
       tipo: 'PDF',
       descarga: '/downloads/produccion.pdf',
     },
     {
-      texto:
-      'Adobe. (2016). Ayuda de Adobe Illustrator CC.',
+      texto: 'Adobe. (2016). Ayuda de Adobe Illustrator CC.',
       tipo: 'PDF',
       descarga: '/downloads/ayuda-adobe.pdf',
     },
     {
       texto:
-      'Capriotti, P. (2009). Branding corporativo, fundamentos para la gestión estratégica de la identidad corporativa. ',
+        'Capriotti, P. (2009). Branding corporativo, fundamentos para la gestión estratégica de la identidad corporativa. ',
       tipo: 'PDF',
       descarga: '/downloads/branding.pdf',
     },
@@ -302,14 +298,12 @@ export default {
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Diseñadora instruccional',
-        centro:
-          'Centro de Gestión Industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Revisor metodológico y pedagógico',
-        centro:
-          'Centro de Diseño y Metrología Regional Distrito Capital ',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital ',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
