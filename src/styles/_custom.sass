@@ -1,0 +1,61 @@
+// ADORNOS FLOTANTES //
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: absolute
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+.texto-adorno
+  width: fit-content
+  position: relative
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+// ADORNOS FLOTANTES //
+
+// BOTONES CARROUSEL //
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover, 
+  background-color: transparent
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/izquierda.svg) !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/derecha.svg) !important
+// BOTONES CARROUSEL //
+
+
+  // TARJETA TEXTO UP //
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    position: absolute
+    background-color: #fbf7e7 !important
+    bottom: -15%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      display: none
+  &:hover
+    .tarjetas-text__contenido
+      height: 75%
+      bottom: 0
+      p
+        opacity: 1
+        display: block
+// TARJETA TEXTO UP //
+.tabs-a__tab
+  background-color:  #E8E8E8
