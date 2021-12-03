@@ -9,7 +9,7 @@
     p.mb-5 En el siguiente mapa se explica el concepto de producción gráfica:
     figure.mb-5(data-aos='zoom-in-up')
       img(src='@/assets/curso/0.svg') 
-    p.mb-5  El proceso de la producción gráfica, parte desde el brief, donde encontraremos toda la información que hará que se realice un proceso impecable desde su comienzo, hasta la entrega del producto final, una vez definidos los procesos y los medios se definirán características como los formatos, los tipos de material y sus respectivos acabados, número de ejemplares, sistemas de impresión, así como los plazos de producción, así como los de entrega. 
+    p.mb-5  El proceso de la producción gráfica, parte desde el brief, donde encontraremos toda la información que hará que se realice un proceso impecable desde su comienzo, hasta la entrega del producto final, una vez definidos los procesos y los medios se definirán características como los formatos, los tipos de material y sus respectivos acabados, número de ejemplares, sistemas de impresión, así como los plazos de producción y los de entrega. 
     .bloque-texto-f.bg--1-claro.pt-5.px-5.mb-5
       h4.text-regular.bloque-texto-f__texto.px-5.text-center El término <b>“impresión gráfica”</b> comienza a utilizarse tras la invención de la imprenta hacia 1450, intentado agrupar los oficios que se relacionaban a esta actividad como lo era la misma impresión, pero sin dejar de lado los procesos de encuadernación y acabados.
       .bloque-texto-f__avatar
@@ -20,14 +20,14 @@
         p.mb-3 Para la elaboración de las piezas finales, se prepararán documentos con todas sus especificaciones, perfiles de color, resolución, formatos y demás características; se verificarán todas las características por parte de la imprenta como las pruebas de color, antes de iniciar el proceso de impresión, finalmente y no menos importante, la distribución y entrega del material al cliente.
           br
           br
-          |Se puede decir que el proceso de producción gráfica básicamente tiene dos fases, una que comprende el proceso de creación o el proceso creativo y otra que estructura el proceso industrial o el proceso de producción; por lo que es importante conocer cada una y las características que ayudarán a dar claridad sobre cada una al momento de ubicar las acciones en un cronograma ya que los procesos que incluyen elementos externos, no se pueden controlar y es preciso organizarlos para no tener problemas en el futuro.
+          |Se puede decir que el proceso de producción gráfica básicamente tiene dos fases, una que comprende el proceso de creación o el proceso creativo y otra que estructura el proceso industrial o el proceso de producción; por lo que es importante conocer cada una con sus características, que ayudarán a dar claridad al momento de ubicar las acciones en un cronograma, ya que los procesos que incluyen elementos externos no se pueden controlar y es preciso organizarlos para no tener problemas en el futuro.
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/2.jpg" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
-    p.mb-5 De acuerdo a lo anterior, revise en el siguiente recurso el proceso en sus dos fases:
+    p.mb-5 De acuerdo con lo anterior, revise en el siguiente recurso el proceso en sus dos fases:
     SlyderB.mb-5(:datos="datosSlyder")
 
 

@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Software vectorial
-    p.mb-5 Un software vectorial es aquel que permite la creación y edición de gráficos por medio de vectores y líneas que se pueden, modificar para crear dibujos, ilustraciones, logotipos, tipografías y demás; los gráficos vectoriales a diferencia de los pixeles, se componen por ecuaciones y se podrán ampliar tantas veces sea necesario. 
+      h1 <i>Software</i> vectorial
+    p.mb-5 Un <i>software vectorial</i> es aquel que permite la creación y edición de gráficos por medio de vectores y líneas que se pueden, modificar para crear dibujos, ilustraciones, logotipos, tipografías y demás; los gráficos vectoriales a diferencia de los pixeles se componen por ecuaciones y se podrán ampliar tantas veces sea necesario. 
     .row.mb-5
       .col-lg-4(data-aos="fade-right"): img(src='@/assets/curso/14.svg')
       .col-lg-4(data-aos="fade-down"): img(src='@/assets/curso/15.svg')
@@ -52,7 +52,7 @@
             td Dependen de la resolución.
           tr
             td La imagen vectorial se puede agrandar o contraer y no pierde calidad.
-            td La calidad de la imagen fotográfica depende del número de píxeles por la cual  este compuesta, por esto perderá calidad si aumentamos o disminuimos su  tamaño, en proporciones fuera de su rango.
+            td La calidad de la imagen fotográfica depende del número de píxeles por la cual está compuesta, por esto perderá calidad si aumentamos o disminuimos su tamaño, en proporciones fuera de su rango.   
           tr
             td Las imágenes vectoriales ocupan muy poco espacio. 
             td A mayor resolución, mayor peso.
@@ -63,7 +63,7 @@
             td Mantienen su calidad y aspecto. 
             td Van perdiendo calidad cada vez que se guardan o modifican. 
           tr
-            td Generalmente se utilizan programas como CorelDraw o Illustrator, ya que son programas para dibujar y no para retocar.  
+            td Generalmente se utilizan programas como CorelDraw o Illustrator, ya que son programas para dibujar y no para retocar.   
             td Se utiliza Photoshop, ya que buscamos retocar la imagen para un mejor resultado. 
           tr
             td En Illustrator, se pueden realizar piezas como carteles, logotipos, dibujos, ilustraciones, aplicaciones, papelería, bocetos etc.
@@ -72,10 +72,10 @@
       h2 2.1 Interfaz y áreas de trabajo
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 El programa o software de <i>Illustrator</i> que se presenta a continuación es uno o el más usado en la industria actualmente, es uno de tantos programas de la familia Adobe y es el especializado en diseño vectorial, revise sus principales características y herramientas y logre familiarizarse.
+        p.mb-3 El programa o <i>software</i> de Illustrator que se presenta a continuación es uno o el más usado en la industria actualmente, es uno de tantos programas de la familia Adobe y es el especializado en diseño vectorial, revise sus principales características y herramientas y logre familiarizarse.
           br
           br
-          |Para empezar a trabajar en Illustrator, abra el programa en su equipo y siga las instrucciones dadas en los videos <b>01. Espacios de Trabajo y 02. Zoom y desplazamiento</b>, en los cuales se refieren los siguientes elementos.
+          |Para empezar a trabajar en Illustrator, abra el programa en su equipo y siga las instrucciones dadas en los videos <b>01. Espacios de Trabajo y 02. Zoom y desplazamiento</b>, en los cuales se refieren los siguientes elementos. Recuerde que también podrá ver un documento que explica estos dos videos: 
           br
           br
           |Recuerde que también podrá ver un documento que explica estos dos videos: 
@@ -129,10 +129,10 @@
       h2 2.2. Capas
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 En un documento, podemos encontrar varias capas, estas permiten trabajar con los elementos en distintos niveles; se puede pensar en cada capa como una lámina transparente que permite trabajar por independiente y que al momento de juntarlos se logra un solo proyecto. 
+        p.mb-3 En un documento se puede encontrar varias capas, estas permiten trabajar con los elementos en distintos niveles; se puede pensar en cada capa como una lámina transparente que permite trabajar por independiente y que al momento de juntarlos se logra un solo proyecto.
           br
           br
-          |El orden de cada capa, determina el orden de los objetos, lo que hace que al momento de adjuntar un objeto se localice encima y para abajo las capas inferiores. Esto facilita el trabajo sobre todo en documentos más complejos, pudiendo tener capas por separado y la posibilidad de controlarlas.
+          |El orden de cada capa determina el orden de los objetos, lo que hace que al momento de adjuntar un objeto se localice encima y para abajo las capas inferiores. Esto facilita el trabajo sobre todo en documentos más complejos, pudiendo tener capas por separado y la posibilidad de controlarlas.  En la siguiente figura se observa la apariencia de las capas:
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/28.jpg" alt="Adornos flotantes")
@@ -171,19 +171,19 @@
         .h5.mb-0 Borrar Capa
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 En el panel Capas se puede disponer de las capas para poder movernos y tener más control de cada una, en el panel encontramos las capas. Al creare un archivo nuevo solo encontraremos una sola. A la izquierda de cada capa encontraremos un triángulo que contrae o expande cada una, mostrando todos los objetos que la contienen, esta a su vez puede contener más sub-capas o nuevos objetos.
+        p.mb-3 En el panel Capas se puede disponer de las capas para poder moverse y tener más control de cada una, en el panel se encuentran las capas. Al crear un archivo nuevo solo se encontrará una sola. A la izquierda de cada capa se encuentra un triángulo que contrae o expande cada una, mostrando todos los objetos que la contienen, esta a su vez puede contener más subcapas o nuevos objetos.
           br
           br
-          |A la izquierda tenemos dos columnas con íconos que aparecen o desaparecen según la cantidad de clics; en la primera se aparecerá un ojo 
+          |A la izquierda hay dos columnas con íconos que aparecen o desaparecen según la cantidad de clics; en la primera se aparecerá un ojo  
           span
             img(src="@/assets/curso/ojo.jpg" alt="Candado" style="width: 18px; height: 18px; display: inline-block").mx-1
-          |,  que oculta o muestra la capa y encontramos también un candado 
+          |,  que oculta o muestra la capa y se encuentra también un candado 
           span
             img(src="@/assets/curso/candado.jpg" alt="Candado" style="width: 18px; height: 18px; display: inline-block").mx-1
           |que bloquea la edición de la capa en todos sus sentidos.   
           br
           br
-          |En la parte inferior se localizan los controles que permiten la creación o eliminación de las capas y sub capas, al hacer doble clic, se accede a las propiedades, con edición de sus características; se debe tener en cuenta que, al momento de trabajar en alguna capa, esta se verá resaltada en azul. 
+          |En la parte inferior se localizan los controles que permiten la creación o eliminación de las capas y subcapas, al hacer doble clic, se accede a las propiedades, con edición de sus características; se debe tener en cuenta que, al momento de trabajar en alguna capa, esta se verá resaltada en azul. 
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/30.jpg" alt="Adornos flotantes")
@@ -208,7 +208,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3  Herramientas de selección
-    p.mb-5 Para modificar, trabajar, editar o lo que sea que quiera hacer con un objeto en Illustrator, lo primero que se debe es seleccionarlo, todas estas propiedades las podemos editar en el panel de control; la forma más simple de seleccionar un objeto es haciendo clic sobre él, o haciendo una selección con esta misma herramienta, que abarque el elemento total o parcial del elemento o varios elementos.
+    p.mb-5 Para modificar, trabajar, editar o lo que sea que quiera hacer con un objeto en Illustrator, lo primero que se debe es seleccionarlo, todas estas propiedades se pueden editar en el panel de control; la forma más simple de seleccionar un objeto es haciendo clic sobre él, o haciendo una selección con esta misma herramienta, que abarque el elemento total o parcial del elemento o varios elementos.
       br
       br
       |Cuando el objeto aparece seleccionado se verá un recuadro que lo delimita, si son más 2 o más objetos, el recuadro abarca la selección, como lo puede observar en la siguiente figura:
@@ -444,7 +444,7 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
-    p.mb-5 En la siguiente figura se muestra el efecto Aplicar Girar, el cual permite que el objeto gire en su propio eje y que surja un elemento tridimensional:
+    p.mb-5 En la siguiente figura se muestra el efecto <b>Aplicar Girar</b>, el cual permite que el objeto gire en su propio eje y que surja un elemento tridimensional:
     .titulo-sexto.color-acento-contenido
       h5 Figura 3
       span  Efecto Aplicar Girar
@@ -586,8 +586,8 @@
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="1. Pincel Caligráfico")
         .row
           .col-lg-5
-            h4 1. Pincel Caligráfico
-            p Este pincel, crea un trazo que parece haber sido hecho por una pluma o un marcador o algún trazo que pueda tener tinta o por el contrario un pincel; este trazo se define se plasma el trazo con puntos o vectores. 
+            h4 1. Pincel caligráfico
+            p Este pincel crea un trazo que parece haber sido hecho por una pluma o un marcador o algún trazo que pueda tener tinta o por el contrario un pincel; aquí se plasma el trazo con puntos o vectores. 
           .col-lg-7
             .titulo-sexto.color-acento-botones
               h5 Figura 4
@@ -596,8 +596,8 @@
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="2. Pincel de Dispersión: ")
         .row
           .col-lg-5
-            h4 2. Pincel de Dispersión: 
-            p Este pincel, definirá un diseño o arte vectorial y será el trazo el que copiará dicho arte y lo replicará como un trazo.
+            h4 2. Pincel de dispersión: 
+            p Este pincel definirá un diseño o arte vectorial y será el trazo el que copiará dicho arte y lo replicará como un trazo.
           .col-lg-7
             .titulo-sexto.color-acento-botones
               h5 Figura 5
@@ -606,7 +606,7 @@
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="3. Pincel de Arte: ")
         .row
           .col-lg-5
-            h4 3. Pincel de Arte: 
+            h4 3. Pincel de arte: 
             p Este pincel, definirá el trazo como un “pincel” y entenderá cada trazo con dichas características, recuerde que cada pincel tiene la opción de definir y adecuar sus atributos según la necesidad.
           .col-lg-7
             .titulo-sexto.color-acento-botones
@@ -616,14 +616,14 @@
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="4. Pincel Motivo: ")
         .row
           .col-lg-5
-            h4 4. Pincel Motivo: 
+            h4 4. Pincel motivo: 
             p Similar al pincel de dispersión, copia elementos a lo largo de un trazado, a diferencia del anterior, sus elementos son exactamente iguales ya que se sitúan sobre un plano igual siguiendo sus pasos, se puede entender como si fuesen azulejos juntos.
           .col-lg-7
             .titulo-sexto.color-acento-botones
               h5 Figura 7
               span Pincel Motivo
             img(src="@/assets/curso/60.png")
-    p.mb-5 Es importante conocer las principales características del panel de pinceles, así que revise el siguiente recurso:
+    p.mb-5 Es importante conocer las principales características del <b>panel de pinceles</b>, así que revise el siguiente recurso:
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
@@ -770,7 +770,7 @@
             img(src='@/assets/curso/75.svg' alt='AvatarTop')
           .tarjeta.bg--2-claro.d-flex.align-items-center
             .p-2
-              h4 Menos Fondo:
+              h4 Menos fondo:
               p resta los objetos situados más al fondo del objeto situado más al frente.
       .col-lg-4.mb-3
         .tarjeta-avatar-b.mb-5.h-100.hover
@@ -821,7 +821,7 @@
         p.text-center A diferencia de los modos de forma, <b>los buscatrazos superponen información y genera un solo elemento</b>, también es importante tener presente que cuando se vaya a seleccionar cualquier opción acá presente, si se mantiene la tecla <i>Alt u Option</i>, según corresponda, se realizará dicha acción, pero dejará visibles los contornos de los elementos. 
     #t_2_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.10 Almacenamiento, importación y exportación
-    p.mb-5 Como bien sabemos, Illustrator es un programa de vectores, por eso su primera opción al pensar en grabar o exportar un archivo o documento, su formato inicial será (.AI), guardando información como los trazos, los colores, mesas de trabajo, entre otros. Se cuenta también con otros formatos nativos como el PDF, que conserva información y características vectoriales; se puede acceder desde el menú Archivo, Guardar, Guardar Como o Guardar una Copia, en cualquiera de los casos, se abrirá una ventana (figura 14) donde se escogerá en Nombre con que se guardará, la ubicación, el formato inicial que será (.ai), se activará la opción de las mesas de trabajo si se trabajaron dos o más y el OK o GUARDAR para avanzar.
+    p.mb-5 Como bien se sabe, Illustrator es un programa de vectores, por eso su primera opción al pensar en grabar o exportar un archivo o documento, su formato inicial será (.AI), guardando información como los trazos, los colores, mesas de trabajo, entre otros. Se cuenta también con otros formatos nativos como el PDF, que conserva información y características vectoriales; se puede acceder desde el menú Archivo, Guardar, Guardar Como o Guardar una Copia, en cualquiera de los casos, se abrirá una ventana (figura 14) donde se escogerá en Nombre con que se guardará, la ubicación, el formato inicial que será (.ai), se activará la opción de las mesas de trabajo si se trabajaron dos o más y el OK o GUARDAR para avanzar.
     .titulo-sexto.color-acento-botones
       h5 Figura 14
       span Opción Guardar

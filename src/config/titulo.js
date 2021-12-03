@@ -1,1 +1,1 @@
-module.exports = 'Producción Gráfica 01'
+module.exports = 'Producción gráfica'

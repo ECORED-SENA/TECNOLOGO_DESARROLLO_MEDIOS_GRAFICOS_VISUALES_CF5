@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Producción Gráfica 01',
+    componenteFormativo: 'Producción gráfica',
     descripcionCurso:
       'La producción gráfica está presente en todos los ámbitos de la vida y encuentra en la publicidad su máximo potencial, convirtiéndose en un elemento indispensable a la hora de competir y atraer nuevos clientes. Se debe asegurar que el diseño transmita el mensaje correctamente y pueda utilizar software especializados para solucionar de manera práctica la producción gráfica.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
