@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Producción gráfica',
     descripcionCurso:
-      'La producción gráfica está presente en todos los ámbitos de la vida y encuentra en la publicidad su máximo potencial, convirtiéndose en un elemento indispensable a la hora de competir y atraer nuevos clientes. Se debe asegurar que el diseño transmita el mensaje correctamente y pueda utilizar software especializados para solucionar de manera práctica la producción gráfica.',
+      'La producción gráfica está presente en todos los ámbitos de la vida y encuentra en la publicidad su máximo potencial, convirtiéndose en un elemento indispensable a la hora de competir y atraer nuevos clientes. Se debe asegurar que el diseño transmita el mensaje correctamente y pueda utilizar <i>software</i> especializado para solucionar de manera práctica la producción gráfica.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/interno.png'),
@@ -284,7 +284,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Guillermo Eduardo González. ',
+        nombre: 'Guillermo Eduardo González',
         cargo: 'Instructor',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
@@ -303,13 +303,13 @@ export default {
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Revisor metodológico y pedagógico',
-        centro: 'Centro de Diseño y Metrología Regional Distrito Capital ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisión de estilo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander ',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
       },
     ],
     desarrolloProducto: [
@@ -317,49 +317,49 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andres Mauricio Santaella Ochoa',
-        cargo: 'Soporte Front-End',
+        cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
