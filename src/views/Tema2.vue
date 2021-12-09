@@ -908,7 +908,7 @@
       h4.mb-0.me-3 Síntesis
     p.mb-5 En el siguiente mapa se presenta un resumen de las opciones de las herramientas desarrolladas en este componente:
     figure.mb-5
-      img(src='@/assets/curso/81.jpg', alt='Texto que describa la imagen' style='width: 100%').m-auto
+      img(src='@/assets/curso/81.svg', alt='Texto que describa la imagen' style='width: 100%').m-auto
 
 
 
