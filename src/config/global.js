@@ -139,7 +139,7 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Adobe. (2016). Ayuda de Adobe Illustrator CC',
+      referencia: 'Adobe. (2016). Ayuda de Adobe Illustrator CC.',
       link: 'https://helpx.adobe.com/es/pdf/illustrator_reference.pdf',
     },
     {
@@ -151,17 +151,17 @@ export default {
       link: 'https://helpx.adobe.com/es/illustrator/using/summary-effects.html',
     },
     {
-      referencia: 'Angie. (2020). Tipos de Branding.',
+      referencia: 'Angie. (2020). Tipos de <i>Branding</i>.',
       link: 'https://www.grupoendor.com/tipos-de-branding/ ',
     },
     {
       referencia:
-        'ARD. (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019 PowerPoint [Video]. YouTube. ',
+        'ARD. (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019  [Video]. YouTube. ',
       link: 'https://www.youtube.com/watch?v=mpuHqvgeKpc',
     },
     {
       referencia:
-        'Capriotti P. (2009). Branding corporativo Fundamentos para la gestión estratégica de la identidad corporativa. ',
+        'Capriotti P. (2009). <i>Branding</i> corporativo Fundamentos para la gestión estratégica de la identidad corporativa. ',
       link: 'http://www.analisisdemedios.com/branding/BrandingCorporativo.pdf',
     },
     {
@@ -177,12 +177,12 @@ export default {
         'https://foroalfa.org/articulos/el-diseno-grafico-de-materiales-educativos',
     },
     {
-      referencia: 'Ojeda, G. (2010). La Producción Gráfica.',
+      referencia: 'Ojeda, G. (2010). Producción gráfica.',
       link: 'https://es.slideshare.net/tls02cv/produccion-grafica',
     },
     {
       referencia:
-        'Razak, A. (s.f.). Naming: definición, tipos y guía paso a paso. ',
+        'Razak, A. (s.f.). <i?Naming</i>: definición, tipos y guía paso a paso. ',
       link: 'https://www.branfluence.com/guia-proceso-de-naming/',
     },
     {
@@ -192,12 +192,12 @@ export default {
     },
     {
       referencia:
-        'Samsing, C. (2019). Branding Empresarial: cómo crear un manual de identidad corporativa.',
+        'Samsing, C. (2019). <i>Branding</i> Empresarial: cómo crear un manual de identidad corporativa.',
       link:
         'https://blog.hubspot.es/marketing/branding-e-identidad-corporativa-guias-de-estilo',
     },
     {
-      referencia: 'Santarsiero, H. (2008). La Producción gráfica. ',
+      referencia: 'Santarsiero, H. (2008). La Producción Gráfica. ',
       link:
         'https://elblogdelprofenestor.files.wordpress.com/2019/05/produccion-grafica-h-santarsiero.pdf',
     },
@@ -241,29 +241,30 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Ojeda, G. (2010). La Producción Gráfica.',
+      texto: 'Ojeda, G. (2010). Producción gráfica.',
       tipo: 'Presentación',
       link: 'https://es.slideshare.net/tls02cv/produccion-grafica',
     },
     {
-      texto: 'Santarsiero, H. (2008) La Producción gráfica.',
+      texto: 'Santarsiero, H. (2008) La Producción Gráfica.',
       tipo: 'PDF',
-      descarga: '/downloads/produccion.pdf',
+      link:
+        'https://elblogdelprofenestor.files.wordpress.com/2019/05/produccion-grafica-h-santarsiero.pdf',
     },
     {
       texto: 'Adobe. (2016). Ayuda de Adobe Illustrator CC.',
       tipo: 'PDF',
-      descarga: '/downloads/ayuda-adobe.pdf',
+      link: 'https://helpx.adobe.com/es/pdf/illustrator_reference.pdf',
     },
     {
       texto:
-        'Capriotti, P. (2009). Branding corporativo, fundamentos para la gestión estratégica de la identidad corporativa. ',
+        'Capriotti, P. (2009). <i>Branding</i> corporativo, fundamentos para la gestión estratégica de la identidad corporativa. ',
       tipo: 'PDF',
-      descarga: '/downloads/branding.pdf',
+      link: 'http://www.analisisdemedios.com/branding/BrandingCorporativo.pdf',
     },
     {
       texto:
-        'ARD (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019 PowerPoint. [Video]. YouTube. ',
+        'ARD (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019 [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mpuHqvgeKpc',
     },

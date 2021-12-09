@@ -91,7 +91,7 @@ export default {
       {
         titulo: 'Impresión',
         texto:
-          'Luego de la aprobación de las pruebas de color por parte del diseñador y del cliente (es muy importante que este proceso de aprobación se lleve a cabo) se procede a la impresión de las piezas. Existen diversos sistemas de impresión que van desde el offset, serigrafía y flexografía (siendo estos sistemas de impresión indirecta) o impresión digital y plotter (siendo estos de impresión directa) que se elegirán según los materiales finales del sustrato o la versatilidad en cuanto a la parte económica y de tiempos.',
+          'Luego de la aprobación de las pruebas de color por parte del diseñador y del cliente (es muy importante que este proceso de aprobación se lleve a cabo), se procede a la impresión de las piezas. Existen diversos sistemas de impresión que van desde el <i>offset</i>, serigrafía y flexografía (siendo estos sistemas de impresión indirecta) o impresión digital y <i>plotter</i> (siendo estos de impresión directa) que se elegirán según los materiales finales del sustrato o la versatilidad en cuanto a la parte económica y de tiempos.',
         imagen: require('@/assets/curso/10.jpg'),
       },
       {

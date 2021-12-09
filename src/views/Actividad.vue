@@ -9,13 +9,13 @@
           figure
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Apropiando conceptos para la producción de elementos gráficos.
-        p.mb-4 Apropiar conceptos para la producción de elementos gráficos mediante un proceso de investigación y creación para poder elaborar productos en un software especializado.
+        .titulo-segundo.color-acento-contenido
+          h2 Apropiando conceptos para la producción de elementos gráficos
+        p.mb-4 Apropiar conceptos para la producción de elementos gráficos mediante un proceso de investigación y creación para poder elaborar productos en un ;<i>software especializado</i>.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 
+              p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-1/story.html')" target="_blank")
                 span Realizar
@@ -27,14 +27,14 @@
           figure
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Apropiando conceptos para la producción de elementos gráficos.
-        p.mb-4 A través de un ejercicio de asociación afianzar los conceptos de producción gráfica y utilización de software especializado para la elaboración de productos gráficos.
+        .titulo-segundo.color-acento-contenido
+          h2 Apropiando conceptos para la producción de elementos gráficos
+        p.mb-4 A través de un ejercicio de asociación afianzar los conceptos de producción gráfica y utilización de <i>software</i> especializado para la elaboración de productos gráficos.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 
-            .col-auto
+              p.fw-bold.mb-0 Asociación 
+            .col-auto 
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-2/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
