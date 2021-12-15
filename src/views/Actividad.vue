@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Apropiando conceptos para la producción de elementos gráficos
-        p.mb-4 Apropiar conceptos para la producción de elementos gráficos mediante un proceso de investigación y creación para poder elaborar productos en un ;<i>software especializado</i>.
+        p.mb-4 Apropiar conceptos para la producción de elementos gráficos mediante un proceso de investigación y creación para poder elaborar productos en un <i>software </i>especializado.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -28,7 +28,7 @@
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Apropiando conceptos para la producción de elementos gráficos
+          h2 Afianzar conceptos para la producción de elementos gráficos
         p.mb-4 A través de un ejercicio de asociación afianzar los conceptos de producción gráfica y utilización de <i>software</i> especializado para la elaboración de productos gráficos.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            

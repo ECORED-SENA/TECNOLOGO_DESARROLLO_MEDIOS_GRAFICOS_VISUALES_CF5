@@ -78,9 +78,6 @@
           br
           br
           |Para empezar a trabajar en Illustrator, abra el programa en su equipo y siga las instrucciones dadas en los videos <b>01. Espacios de Trabajo y 02. <i>Zoom y desplazamiento</i></b>, en los cuales se refieren los siguientes elementos. Recuerde que también podrá ver un documento que explica estos dos videos: 
-          br
-          br
-          |Recuerde que también podrá ver un documento que explica estos dos videos: 
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/25.jpg" alt="Adornos flotantes")
@@ -218,7 +215,7 @@
     p.mb-5 En el siguiente recurso pueden observar los diferentes tipos de herramientas de selección y su utilidad: 
     .row.justify-content-center.d-none.d-xl-block
       .col-lg-12
-        #carouselExampleIndicators2.carousel.slide(data-bs-ride='carousel')
+        #carouselExampleIndicators2.carousel.slide(data-interval="false")
       
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='false' aria-label='Slide 1')
@@ -325,7 +322,7 @@
               p.mb-0 Lo invitamos a revisar el video 04. <b>Herramientas de dibujo</b>, en el que se hace un repaso de las herramientas de dibujo de Illustrator y sus características.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PSA5XZf0BZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.5 Herramientas de color
     .row.mb-5.align-items-center
@@ -340,7 +337,7 @@
     p.mb-5 Estos son los modos que facilita el programa: 
     .row.justify-content-center
       .col-lg-12
-        #carouselExampleIndicators1.carousel.slide(data-bs-ride='carousel')
+        #carouselExampleIndicators1.carousel.slide(data-interval="false")
       
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators1' data-bs-slide-to='0' aria-current='false' aria-label='Slide 1')
@@ -417,10 +414,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/VpW5xHRPR7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.6 Herramientas de texto
-    p.mb-5 "La Herramienta Texto", es una herramienta muy importante que permite añadir líneas y cajas de texto, crear columnas y adaptar textos sobre algún trazado específico, además de poder editar cada letra o carácter como un elemento individual. 
+    p.mb-5 La "Herramienta Texto", es una herramienta muy importante que permite añadir líneas y cajas de texto, crear columnas y adaptar textos sobre algún trazado específico, además de poder editar cada letra o carácter como un elemento individual. 
       br
       br
-      |Al utilizar la "La Herramienta Texto" es muy importante tener en cuenta todas las variaciones y características en la barra de herramientas, entre las que se pueden distinguir las siguientes:
+      |Al utilizar la "Herramienta Texto" es muy importante tener en cuenta todas las variaciones y características en la barra de herramientas, entre las que se pueden distinguir las siguientes:
     ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
@@ -439,7 +436,7 @@
       .tarjeta.color-secundario.p-3(x="64%" y="10%" numero="6")
         .h5.mb-0 Carácter de tipografía, desde este podemos cambiar la tipografía usada
       .tarjeta.color-secundario.p-3(x="74%" y="8%" numero="7")
-        .h5.mb-0 Estilo, puede ser <b>bold</b>, negrita, itálica, etc.
+        .h5.mb-0 Estilo, puede ser <i>bold</i>, negrita, itálica, etc.
       .tarjeta.color-secundario.p-3(x="82%" y="9%" numero="8")
         .h5.mb-0 Tamaño de fuente o letra, el cual se mide en puntos
       .tarjeta.color-secundario.p-3(x="85%" y="5%" numero="9")
@@ -451,10 +448,10 @@
         .col-lg-10
           .row.justify-content-between.align-items-center
             .col-12.mb-3.mb-sm-0
-              p.mb-0 Lo invitamos a revisar el <b>video 06. Herramientas de Texto</b>, podrá reconocer las diferentes herramientas de texto y párrafo; modificar y editar texto, y generar efectos y sus herramientas principales. 
+              p.mb-0 Lo invitamos a revisar el video<b>06.Herramientas de texto</b>, podrá reconocer las diferentes herramientas de texto y párrafo; modificar y editar texto, y generar efectos y sus herramientas principales. 
                 br
                 br
-                <b>Además, podrá revisar el anexo explicativo de la Herramienta Texto.</b>
+                <b>Además, podrá revisar el anexo explicativo de la "Herramienta Texto".</b>
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/35-j5sA-GnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -487,7 +484,7 @@
               br
               br
               |En esta herramienta se encuentran 3 parámetros para trabajar, extrusión y biselado, girar y rotar, cada uno utilizado con una función específica.
-      .col-lg-4.mb-3.mb-5
+      .col-lg-4.mb-3.mb-5.mt-3
         .tarjeta.tarjetas-text.rounded-0(style='height: 380px')
           img(src="@/assets/curso/52.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.px-5.pb-5.pt-3.mb-3
@@ -525,7 +522,7 @@
         .col-lg-10
           .row.justify-content-between.align-items-center
             .col-10.mb-3.mb-sm-0
-              p.mb-0 Lo invitamos a revisar el video 07. Video <b>Tridimensional</b>, aprenderá a seleccionar y construir una forma bidimensional y transformarla en un elemento tridimensional.
+              p.mb-0 Lo invitamos a revisar el video 07. <b>Tridimensionalidad</b>, aprenderá a seleccionar y construir una forma bidimensional y transformarla en un elemento tridimensional.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Ao8KNnWBpEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -614,12 +611,12 @@
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="1. Pincel caligráfico")
         .row
           .col-lg-5
-            h4 1. Pincel caligráfico
+            h4 1. Pincel caligráfico:
             p Este pincel crea un trazo que parece haber sido hecho por una pluma o un marcador o algún trazo que pueda tener tinta o por el contrario un pincel; aquí se plasma el trazo con puntos o vectores. 
           .col-lg-7
             .titulo-sexto.color-acento-botones
               h5 Figura 4
-              span Pincel caligráfico:
+              span Pincel caligráfico
             img(src="@/assets/curso/57.png")
       .tarjeta.color-acento-contenido--borde.bg-naranja.p-4(titulo="2. Pincel de dispersión ")
         .row
@@ -740,7 +737,7 @@
           h4.text-center.mb-5 Figura original
           img(src="@/assets/curso/70.svg" style="width: 337px").m-auto
       .col-lg-7
-        #carouselExampleIndicators3.carousel.slide(data-bs-ride='carousel')
+        #carouselExampleIndicators3.carousel.slide(data-interval="false")
       
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators3' data-bs-slide-to='0' aria-current='false' aria-label='Slide 1')
@@ -852,7 +849,7 @@
         p.text-center A diferencia de los modos de forma, <b>los buscatrazos superponen información y genera un solo elemento</b>, también es importante tener presente que cuando se vaya a seleccionar cualquier opción acá presente, si se mantiene la tecla <i>Alt u Option</i>, según corresponda, se realizará dicha acción, pero dejará visibles los contornos de los elementos. 
     #t_2_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.10 Almacenamiento, importación y exportación
-    p.mb-5 Como bien se sabe, Illustrator es un programa de vectores, por eso su primera opción al pensar en grabar o exportar un archivo o documento, su formato inicial será (.AI), guardando información como los trazos, los colores, mesas de trabajo, entre otros. Se cuenta también con otros formatos nativos como el PDF, que conserva información y características vectoriales; se puede acceder desde el menú <b>Archivo, Guardar, Guardar como o Guardar una copia</b>, en cualquiera de los casos, se abrirá una ventana (figura 14) donde se escogerá <b>el nombre con que se guardará</b> , la ubicación, el formato inicial que será (.ai), se activará la opción de las mesas de trabajo si se trabajaron dos o más y el <i>OK</i> o GUARDAR para avanzar.
+    p.mb-5 Como bien se sabe, Illustrator es un programa de vectores, por eso su primera opción al pensar en grabar o exportar un archivo o documento, su formato inicial será (.AI), guardando información como los trazos, los colores, mesas de trabajo, entre otros. Se cuenta también con otros formatos nativos como el PDF, que conserva información y características vectoriales; se puede acceder desde el menú <b>Archivo, Guardar, Guardar como o Guardar una copia</b>, en cualquiera de los casos, se abrirá una ventana (figura 14) donde se escogerá <b>el nombre con que se guardará</b>, la ubicación, el formato inicial que será (.ai), se activará la opción de las mesas de trabajo si se trabajaron dos o más y el <i>OK</i> o GUARDAR para avanzar.
     .titulo-sexto.color-acento-botones
       h5 Figura 14
       span Opción Guardar
