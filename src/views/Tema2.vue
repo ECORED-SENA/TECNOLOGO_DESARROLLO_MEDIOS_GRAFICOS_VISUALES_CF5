@@ -294,7 +294,6 @@
                           h4 Varita mágica  
                           p  Permite seleccionar objetos del mismo color, grosor de trazado, color de trazo, opacidad o modo de fusión, haciendo clic en el objeto.
                         img(src="@/assets/curso/41.svg" ).m-auto
-
     .tarjeta.bg--4-claro.p-4.mb-5.rounded-0.mt-5
       .row.justify-content-around.align-items-center.position-relative
         img.position-absolute.d-none.d-lg-block(src="@/assets/curso/31.svg" alt="Adornos flotantes" style="width: 117px ; left: 3% ; top: -80% ")
@@ -312,6 +311,9 @@
       br
       br
       |Con el siguiente recurso puede estudiar los conceptos básicos y sus principales propiedades, se debe recordar que es un programa vectorial y sus elementos se basan en trazado:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cuDZ3k5svr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .tarjeta.bg--4-claro.p-4.mb-5.rounded-0.mt-5
       .row.justify-content-around.align-items-center.position-relative
         img.position-absolute.d-none.d-lg-block(src="@/assets/curso/31.svg" alt="Adornos flotantes" style="width: 117px ; left: 3% ; top: -80% ")
@@ -448,7 +450,7 @@
         .col-lg-10
           .row.justify-content-between.align-items-center
             .col-12.mb-3.mb-sm-0
-              p.mb-0 Lo invitamos a revisar el video<b>06.Herramientas de texto</b>, podrá reconocer las diferentes herramientas de texto y párrafo; modificar y editar texto, y generar efectos y sus herramientas principales. 
+              p.mb-0 Lo invitamos a revisar el video <b>06. Herramientas de texto</b>, podrá reconocer las diferentes herramientas de texto y párrafo; modificar y editar texto, y generar efectos y sus herramientas principales. 
                 br
                 br
                 <b>Además, podrá revisar el anexo explicativo de la "Herramienta Texto".</b>
