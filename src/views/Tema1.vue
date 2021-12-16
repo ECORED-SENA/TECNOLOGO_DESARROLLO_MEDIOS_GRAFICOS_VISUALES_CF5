@@ -61,7 +61,7 @@ export default {
       {
         titulo: 'Propuesta creativa',
         texto:
-          'Una vez conocidas las necesidades y los objetivos entregados por el <i>brief</i>, se comenzará la fase de creación de la propuesta creativa por parte del diseñador y todo el equipo creativo, donde se expondrán diferentes caminos, los que estarán apoyados en la información contenida en dicho <i>brief</i>, acá se definirán características más técnicas, se presentarán bocetos y diseños, características de <i>packaging</i> y sus acabados, al igual que se definirán características o paletas de color y en general, toda la información que pueda orientar mejor el proyecto para poder definir presupuestos.<br><br>Al finalizar esta fase se obtienen conceptos de diseño claros que estarán en constante revisión con el cliente, quien será el encargado de dar el visto bueno, para así poder pasar a una fase de realización. ',
+          'Una vez conocidas las necesidades y los objetivos entregados por el <i>brief</i>, se comenzará la fase de creación de la propuesta creativa por parte del diseñador y todo el equipo creativo, donde se expondrán diferentes caminos, los que estarán apoyados en la información contenida en dicho <i>brief</i>, acá se definirán características más técnicas, se presentarán bocetos y diseños, características de <i>packaging</i> y sus acabados, al igual que se definirán características o paletas de color y en general, toda la información que pueda orientar mejor el proyecto para poder definir presupuestos. ',
         imagen: require('@/assets/curso/5.jpg'),
       },
       {
