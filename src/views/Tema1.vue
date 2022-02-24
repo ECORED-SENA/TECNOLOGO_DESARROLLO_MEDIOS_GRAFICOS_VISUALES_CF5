@@ -11,7 +11,7 @@
       img(src='@/assets/curso/0.svg') 
     p.mb-5  El proceso de la producción gráfica, parte desde el <i>brief</i>, donde encontraremos toda la información que hará que se realice un proceso impecable desde su comienzo, hasta la entrega del producto final. Una vez definidos los procesos y los medios, se definirán características como los formatos, los tipos de material y sus respectivos acabados, número de ejemplares, sistemas de impresión, así como los plazos de producción y los de entrega. 
     .bloque-texto-f.bg--1-claro.pt-5.px-5.mb-5
-      h4.text-regular.bloque-texto-f__texto.px-5.text-center El término <b>“impresión gráfica”</b> comienza a utilizarse tras la invención de la imprenta hacia 1450, intentado agrupar los oficios que se relacionaban a esta actividad como lo era la misma impresión, pero sin dejar de lado los procesos de encuadernación y acabados.
+      h4.text-regular.bloque-texto-f__texto.px-5.text-center El término <b>“impresión gráfica”</b> comienza a utilizarse tras la invención de la imprenta hacia 1450, intentando agrupar los oficios que se relacionaban a esta actividad como lo era la misma impresión, pero sin dejar de lado los procesos de encuadernación y acabados.
       .bloque-texto-f__avatar
         .bloque-texto-f__avatar__img
           img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
@@ -79,7 +79,7 @@ export default {
       {
         titulo: 'Realización de artes finales',
         texto:
-          'Una vez encontrado el camino creativo y la aprobación del cliente se pasa a un proceso de bocetación y entrega de artes o piezas finales, las cuales en esta época se realizan con programas o <i>software</i> como  InDesign, PhotoShop o Illustrator, este último programa será el que tendremos presente para la creación de ilustraciones y elementos a partir de vectores. <br><br>Este proceso deberá incluir especificaciones como los perfiles de color, las líneas de corte y otras características que se deberán tener presentes como las tipografías o la resolución de las imágenes, elementos que se deberán chequear y tener presentes al momento del paso de los archivos a los impresores. ',
+          'Una vez encontrado el camino creativo y la aprobación del cliente se pasa a un proceso de bocetación y entrega de artes o piezas finales, las cuales en esta época se realizan con programas o <i>software</i> como  InDesign, Photoshop o Illustrator, este último programa será el que tendremos presente para la creación de ilustraciones y elementos a partir de vectores. <br><br>Este proceso deberá incluir especificaciones como los perfiles de color, las líneas de corte y otras características que se deberán tener presentes como las tipografías o la resolución de las imágenes, elementos que se deberán chequear y tener presentes al momento del paso de los archivos a los impresores. ',
         imagen: require('@/assets/curso/8.jpg'),
       },
       {
@@ -103,7 +103,7 @@ export default {
       {
         titulo: 'Distribución y entrega',
         texto:
-          'Por último, no se debe descuidar el proceso de la entrega final, es de igual importancia entregar al cliente todos los elementos impresos y finalizados donde de estipule según los cronogramas y las fechas de entrega, haciendo final el llamado proceso de producción.',
+          'Por último, no se debe descuidar el proceso de la entrega final, es de igual importancia entregar al cliente todos los elementos impresos y finalizados donde se estipule según los cronogramas y las fechas de entrega, haciendo final el llamado proceso de producción.',
         imagen: require('@/assets/curso/12.jpg'),
       },
     ],
